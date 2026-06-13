@@ -25,7 +25,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/analytics.readonly"
 ]
 
-CLIENT_SECRETS_FILE = "app/oauth_client.json"
+CLIENT_SECRETS_FILE = "credentials/oauth_client.json"
 
 
 # =========================================

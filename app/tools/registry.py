@@ -1,11 +1,6 @@
 from app.tools.handlers.ga4_tools import (
     get_top_sources,
-    get_top_keywords,
     get_users,
-    get_meta_ads,
-    get_instagram_engagement,
-    get_linkedin_metrics,
-    get_organic_content,
     get_sessions,
     get_devices,
     get_countries,
@@ -20,11 +15,6 @@ from app.tools.handlers.ga4_tools import (
 TOOLS = {
     "get_top_sources": get_top_sources,
     "get_users": get_users,
-    "get_meta_ads": get_meta_ads,
-    "get_instagram_engagement": get_instagram_engagement,
-    "get_linkedin_metrics": get_linkedin_metrics,
-    "get_organic_content": get_organic_content,
-    "get_top_keywords": get_top_keywords,
     "get_sessions": get_sessions,
     "get_devices": get_devices,
     "get_countries": get_countries,

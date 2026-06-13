@@ -2,10 +2,7 @@ venv/
 __pycache__/
 
 .env
-token.json
-credentials.json
-app/oauth_client.json
-credentials.json.json
+credentials/
 
 linkedin_reports/*.xls
 linkedin_reports/*.xlsx

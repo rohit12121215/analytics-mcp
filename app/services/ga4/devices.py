@@ -1,19 +1,10 @@
-async def get_devices_service(days=30):
+from app.services.ga4.reports import run_ga4_report
 
-    return {
-        "success": True,
-        "data": [
-            {
-                "device": "mobile",
-                "users": 2400
-            },
-            {
-                "device": "desktop",
-                "users": 1200
-            },
-            {
-                "device": "tablet",
-                "users": 300
-            }
-        ]
-    }
+
+async def get_devices_service(days: int = 30):
+
+    return await run_ga4_report(
+        metrics=["sessions"],
+        dimensions=["deviceCategory"],
+        days=days
+    )
