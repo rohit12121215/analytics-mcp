@@ -9,7 +9,8 @@ from app.tools.handlers.ga4_tools import (
     get_browsers,
     get_browser_insights,
     get_sessions_trend,
-    get_local_ai_summary
+    get_local_ai_summary,
+    get_facebook_metrics
 )
 
 TOOLS = {
@@ -23,5 +24,6 @@ TOOLS = {
     "get_browsers": get_browsers,
     "get_browser_insights": get_browser_insights,
     "get_sessions_trend": get_sessions_trend,
-    "get_local_ai_summary": get_local_ai_summary
+    "get_local_ai_summary": get_local_ai_summary,
+    "get_facebook_metrics": get_facebook_metrics
 }

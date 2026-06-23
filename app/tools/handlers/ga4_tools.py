@@ -2,6 +2,10 @@ from app.services.ollama_service import (
     generate_local_ai_summary
 )
 
+from app.services.facebook_service import (
+    get_facebook_summary
+)
+
 from app.services.ga4.trends import (
     get_sessions_trend_service
 )
@@ -126,3 +130,7 @@ async def get_sessions(payload: dict):
     days = payload.get("days", 30)
 
     return await get_sessions_service(days)
+
+async def get_facebook_metrics(payload: dict):
+
+    return get_facebook_summary()

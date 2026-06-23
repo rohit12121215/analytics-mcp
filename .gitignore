@@ -4,7 +4,13 @@ __pycache__/
 .env
 credentials/
 
+token.json
+linkedin_token.json
+
 linkedin_reports/*.xls
 linkedin_reports/*.xlsx
 
 *.pyc
+
+test_env.py
+test_linkedin_api.py
